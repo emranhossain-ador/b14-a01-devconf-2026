@@ -1,0 +1,1 @@
+Create a unique Newsletter Signup section for a modern developer conference called DevConf 2026 using HTML & CSS.The section should be a Newsletter Signup.

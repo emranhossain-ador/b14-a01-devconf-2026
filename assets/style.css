@@ -425,3 +425,92 @@ Newsletter Section
     font-weight: 400;
     letter-spacing: .3px;
 }
+
+
+/* --------------------------------------
+Footer Area
+-------------------------------------- */
+
+.footer-section {
+    background-color: #1e293b;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.footer-logo {
+    width: 160px;
+    height: 45px;
+    flex: 0 160px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eeeeee47;
+    padding-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media > a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ff4c60;
+    border: 1px solid #ff4c60;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+    font-size: 18px;
+}
+
+.social-media > a:hover{
+    background-color: #ff4c60;
+    color: #fff;
+    box-shadow: 0 5px 20px #ff4c60c4;
+}
+
+.footer-copyrightContent{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyrightText > p{
+    color: #cbd5e1a8;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.privacyLinks{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.copyrightText > p > a,
+.privacyLinks > a{
+    color: #cbd5e1a8;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.copyrightText > p > a:hover,
+.privacyLinks > a:hover{
+    color: #ff4c60;
+}
