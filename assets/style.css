@@ -341,3 +341,87 @@ button.pricing-btn:hover{
     background-color: transparent;
     color: #ff4c60;
 }
+
+
+/* --------------------------------------
+Newsletter Section
+-------------------------------------- */
+
+.newsletter-content{
+    text-align:center;
+    background:#1e293b;
+    padding:60px 40px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.newsletter-badge{
+    display:inline-block;
+    padding:8px 18px;
+    background:#ff4c60;
+    color:#fff;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.newsletter-content h2{
+    font-size:42px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.newsletter-content p {
+    color: #cbd5e1;
+    line-height: 1.8;
+    max-width: 550px;
+    margin: 0 auto 35px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+
+.newsletter-form{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.newsletter-form input{
+    flex:1;
+    min-width:280px;
+    max-width:420px;
+    padding:16px 20px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+}
+
+.newsletter-form button{
+    padding:16px 32px;
+    background:#ff4c60;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.newsletter-form button:hover{
+    background:#f4253d;
+    transform:translateY(-2px);
+}
+
+.newsletter-content small {
+    display: block;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #94a3b8;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
