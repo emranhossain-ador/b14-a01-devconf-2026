@@ -159,10 +159,11 @@ Speakers Section Area
     margin-bottom: 3rem;
 }
 
-.section-title > h2{
-    font-size: 35px;
+.section-title > h2 {
+    font-size: 40px;
     font-weight: bold;
     margin: 0;
+    color: #0D1B2A;
 }
 
 .grid-container{
@@ -214,3 +215,129 @@ Speakers Section Area
     letter-spacing: .3px;
 }
 
+
+/* --------------------------------------
+Pricing Area
+-------------------------------------- */
+
+.pricing-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.pricing-grid-container .card{
+    padding: 30px;
+}
+
+.pricing-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: start;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+
+.pricing-card-header > h6 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #888888;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.pricing-card-header > h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin: 0;
+}
+
+.pricing-card-header > p{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    color: #888888;
+    margin: 0;
+}
+
+.pricing-card-body .plan-list {
+    padding: 10px 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pricing-card-body > ul > li {
+    font-size: 14px;
+    font-weight: 500;
+    color: #525151;
+}
+
+.pricing-card-body > ul > li::marker {
+    color: #ff4c60;
+}
+
+.section-title > p {
+    margin: 0;
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+button.pricing-btn {
+    text-align: center;
+    width: 100%;
+    padding: 13px 15px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #ff4c60;
+    border-radius: 10px;
+    color: #ff4c60;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+button.pricing-btn:hover{
+    background-color: #ff4c60;
+    color: #fff;
+}
+
+.pricing-grid-container .card.pro {
+    background: #0D1B2A;
+}
+
+.card.pro .pricing-card-header > h6 {
+    color: #ff4c60;
+}
+
+.card.pro .pricing-card-header > h2 {
+    color: #fff;
+}
+
+.card.pro .pricing-card-header > p {
+    color: #cbcbcb;
+}
+
+.card.pro .pricing-card-body > ul > li {
+    color: #fefefed1;
+}
+
+.card.pro .pricing-card-header {
+    border-bottom: 1px solid #dddddd40;
+}
+
+.card.pro .pricing-btn {
+    background: #ff4c60;
+    color: #fff;
+}
+
+.card.pro .pricing-btn:hover{
+    background-color: transparent;
+    color: #ff4c60;
+}
